@@ -1,11 +1,11 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: "mafevke"
+description: "I am sharing my opinions and feelings about the things I am interested!"
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
+  name: "Ege Onur Taga"
+  email: "egetaga@gmail.com"
   url: "https://ashishchaudhary.in/hacker-blog"
 
-baseurl: /
+baseurl: /egetaga
 
 source: .
 destination: ./_site
