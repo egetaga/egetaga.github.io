@@ -1,11 +1,11 @@
-title: "mafevke"
+title: mafevke
 description: "I am sharing my opinions and feelings about the things I am interested!"
 author:
   name: "Ege Onur Taga"
   email: "egetaga@gmail.com"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  url: "https://egetaga.github.io"
 
-baseurl: /egetaga
+baseurl: /
 
 source: .
 destination: ./_site
