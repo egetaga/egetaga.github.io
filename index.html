@@ -18,7 +18,8 @@
       </nav>
     </header>
     <main>
-      
+      <h1 class="page-name"><strong>Ege Onur</strong> Taga</h1>
+
       <section class="about clearfix">
         <aside class="profile">
           <img src="assets/profile.jpg" alt="Ege Onur Taga">
@@ -30,18 +31,18 @@
 
         <p>I am a Ph.D. student in Electrical and Computer Engineering at the <a href="https://umich.edu/">University of Michigan</a>, advised by Prof. <a href="https://sota.engin.umich.edu/">Samet Oymak</a>. I work on machine learning methods that are effective, data-efficient, and theoretically grounded.</p>
 
-        <p>My research interests include:</p>
+        <p>My research interests lie at the confluence of:</p>
         <ul>
-          <li>time-series foundation models and synthetic pretraining,</li>
-          <li>reinforcement learning and sequential decision-making,</li>
-          <li>data-centric and retrieval-augmented learning, and</li>
-          <li>efficient and principled methods for large language models.</li>
+          <li>foundation models for structured data (time series + tabular), and</li>
+          <li>large language models (post-training, test-time adaptation).</li>
         </ul>
+
+        <p>I received my B.S. in Computer Engineering from <a href="https://bogazici.edu.tr/">Boğaziçi University</a> in Istanbul, where I double majored in Mathematics and graduated as valedictorian.</p>
 
         <p class="links">
           <a href="https://scholar.google.com/citations?user=Rqp70OwAAAAJ&amp;hl=en">scholar</a>
           <a href="https://github.com/egetaga">github</a>
-          <a href="https://www.linkedin.com/in/ege-onur-taga/">linkedin</a>
+          <a href="https://www.linkedin.com/in/egetaga">linkedin</a>
           <a href="assets/EgeOnurTaga_CV.pdf">cv</a>
         </p>
       </section>
@@ -49,11 +50,16 @@
       <section id="news">
         <h2>news</h2>
         <div class="news-list">
-          <div><time>Jul 2026</time><span><em>Evolutionary Feature Engineering for Structured Data</em> is available as a preprint.</span></div>
-          <div><time>May 2026</time><span><em>Evolutionary Multi-Task Optimization for LLM-Guided Program Discovery</em> is available as a preprint.</span></div>
-          <div><time>Apr 2026</time><span>Two papers were accepted to ICML 2026: <em>Learning to Correct</em> and <em>Learning to Bet</em>.</span></div>
-          <div><time>2026</time><span><em>FAF</em> and <em>Retrieval Augmented Time Series Forecasting</em> were accepted to AISTATS 2026.</span></div>
-          <div><time>2025</time><span><em>TimePFN</em> appeared at AAAI 2025, and our knowledge-distillation paper was an ICLR 2025 Spotlight.</span></div>
+          <div><time>Jul 2026</time><span><em><a href="https://arxiv.org/abs/2607.01548">Evolutionary Feature Engineering for Structured Data</a></em> is available as a preprint.</span></div>
+          <div><time>May 2026</time><span><em><a href="https://arxiv.org/abs/2605.22613">Evolutionary Multi-Task Optimization for LLM-Guided Program Discovery</a></em> is available as a preprint.</span></div>
+          <div><time>May 2026</time><span>Happy to announce that I will be interning at IBM Research (T. J. Watson) as a Research Scientist this summer!</span></div>
+          <div><time>Apr 2026</time><span><em><a href="https://arxiv.org/abs/2604.17912">Learning to Correct: Calibrated Reinforcement Learning for Multi-Attempt Chain-of-Thought</a></em> was accepted to ICML 2026.</span></div>
+          <div><time>Apr 2026</time><span><em><a href="https://arxiv.org/abs/2603.19551">Learning to Bet for Horizon-Aware Anytime-Valid Testing</a></em> was accepted to ICML 2026.</span></div>
+          <div><time>Jan 2026</time><span><em><a href="https://openreview.net/forum?id=YVsXgr8MUQ">FAF</a></em> and <em><a href="https://arxiv.org/abs/2411.08249">Retrieval Augmented Time Series Forecasting</a></em> were accepted to AISTATS 2026.</span></div>
+          <div><time>May 2025</time><span>Happy to announce that I will be interning at Uber San Francisco as a PhD Software Engineer this summer!</span></div>
+          <div><time>Jan 2025</time><span>Our <a href="https://arxiv.org/abs/2410.18837">knowledge-distillation paper</a> was accepted to ICLR 2025 as a Spotlight.</span></div>
+          <div><time>Dec 2024</time><span><em><a href="https://arxiv.org/abs/2502.16294">TimePFN</a></em> was accepted to AAAI 2025, and received a Spotlight at the NeurIPS TSALM Workshop.</span></div>
+          <div><time>Sep 2024</time><span><em><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/a6deba3b2408af45b3f9994c2152b862-Abstract-Conference.html">Efficient Contextual LLM Cascades</a></em> was accepted to NeurIPS 2024.</span></div>
         </div>
       </section>
 
@@ -126,6 +132,19 @@
         </div>
       </article>
       <article class="publication">
+        <div class="paper-image" aria-label="Figure from Filter, Augment, Forecast: Online Data Selection for Robust Time Series Forecasting">
+          <span>FAF</span>
+          <img src="assets/papers/faf.png" alt="FAF pipeline: a randomly sampled batch is augmented, then sorted by reducible loss between target and reference models to select which series update each model" loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <div class="pub-body">
+          <div class="venue">AISTATS 2026</div>
+          <div class="pub-title">Filter, Augment, Forecast: Online Data Selection for Robust Time Series Forecasting</div>
+          <div class="pub-authors"><strong>Ege Onur Taga</strong>, Halil Alperen Gozeten, Kutay Tire, Rahul Dalvi, Reinhard Heckel, Samet Oymak</div>
+
+          <div class="pub-links"><a href="https://openreview.net/forum?id=YVsXgr8MUQ">paper</a> · <a href="https://github.com/egetaga/FAF">code</a></div>
+        </div>
+      </article>
+      <article class="publication">
         <div class="paper-image" aria-label="Figure from Retrieval Augmented Time Series Forecasting">
           <span>Retrieval TSF</span>
           <img src="https://arxiv.org/html/2411.08249v2/main_figure.png" alt="Figure from Retrieval Augmented Time Series Forecasting" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">
@@ -162,6 +181,19 @@
           <div class="pub-authors">Muhammed Emrullah Ildiz, Halil Alperen Gozeten, <strong>Ege Onur Taga</strong>, Marco Mondelli, Samet Oymak</div>
           
           <div class="pub-links"><a href="https://arxiv.org/abs/2410.18837">paper</a></div>
+        </div>
+      </article>
+      <article class="publication">
+        <div class="paper-image" aria-label="Figure from Efficient Contextual LLM Cascades through Budget-Constrained Policy Learning">
+          <span>LLM Cascades</span>
+          <img src="assets/papers/llm-cascades.png" alt="Budget-constrained RL policy that routes questions through a cascade of LLMs and prompts, choosing to return, re-query, or escalate based on response consistency and remaining budget" loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <div class="pub-body">
+          <div class="venue">NEURIPS 2024</div>
+          <div class="pub-title">Efficient Contextual LLM Cascades through Budget-Constrained Policy Learning</div>
+          <div class="pub-authors">Xuechen Zhang, Zijian Huang, <strong>Ege Onur Taga</strong>, Carlee Joe-Wong, Samet Oymak, Jiasi Chen</div>
+
+          <div class="pub-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/a6deba3b2408af45b3f9994c2152b862-Abstract-Conference.html">paper</a></div>
         </div>
       </article>
         </div>

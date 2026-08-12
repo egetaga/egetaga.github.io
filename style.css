@@ -9,14 +9,14 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; font-size: 17px; }
 
 body {
   margin: 0;
   color: var(--text);
   background: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.65;
 }
 
@@ -60,7 +60,7 @@ main { padding: 44px 0 64px; }
 .profile {
   float: right;
   width: 255px;
-  margin: 0 0 30px 38px;
+  margin: 0 0 12px 38px;
 }
 
 .profile img {
@@ -93,8 +93,17 @@ h1 {
   letter-spacing: -0.02em;
 }
 
+.page-name {
+  margin: 0 0 22px;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.page-name strong { font-weight: 700; }
+
 h2 {
-  margin: 48px 0 20px;
+  margin: 26px 0 20px;
   color: var(--text);
   font-size: 1.35rem;
   font-weight: 500;
