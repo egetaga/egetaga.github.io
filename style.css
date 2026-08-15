@@ -32,20 +32,10 @@ a:hover { color: var(--hover); text-decoration: underline; }
   min-height: 78px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 24px;
   border-bottom: 1px solid var(--line);
 }
-
-.site-name {
-  color: var(--text);
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  white-space: nowrap;
-}
-
-.site-name:hover { text-decoration: none; }
 
 nav { display: flex; gap: 22px; }
 nav a { color: var(--muted); font-size: 0.96rem; }
@@ -226,6 +216,5 @@ footer {
 }
 
 @media (max-width: 470px) {
-  .site-header { display: block; }
-  nav { margin-top: 8px; }
+  nav { gap: 11px; }
 }
