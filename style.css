@@ -1,6 +1,6 @@
 :root {
-  --accent: #03719c;
-  --hover: #b00149;
+  --accent: #b509ac;
+  --hover: #b509ac;
   --text: #000;
   --muted: #828282;
   --line: rgba(0, 0, 0, 0.1);
@@ -9,7 +9,7 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; font-size: 17px; }
+html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
   margin: 0;
@@ -43,14 +43,14 @@ nav a.active, nav a:hover { color: var(--accent); }
 
 main { padding: 26px 0 64px; }
 
-.about { font-size: 1.03rem; }
+.about { font-size: 1rem; }
 .about p:first-of-type { margin-top: 0; }
 .clearfix::after { content: ""; display: table; clear: both; }
 
 .profile {
   float: right;
   width: 255px;
-  margin: 0 0 12px 38px;
+  margin: -70px 0 12px 38px;
 }
 
 .profile img {
